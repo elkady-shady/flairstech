@@ -7,8 +7,8 @@ services:
     WorldService2:
         build:
             context: .
-            dockerfile: Dockerfile-world3
-        image: world3
+            dockerfile: Dockerfile-world
+        image: world
         expose:
             - 8080
         ports:
